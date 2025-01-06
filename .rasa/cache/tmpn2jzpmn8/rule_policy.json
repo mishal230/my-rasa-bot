@@ -1,0 +1,48 @@
+{
+  "lookup": {
+    "rules": {
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"restaurant\"}}]": "utter_restaurant",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"restaurant\"}}, {\"prev_action\": {\"action_name\": \"utter_restaurant\"}, \"user\": {\"intent\": \"restaurant\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"break_time\"}}]": "utter_break_time",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"break_time\"}}, {\"prev_action\": {\"action_name\": \"utter_break_time\"}, \"user\": {\"intent\": \"break_time\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"affirm\"}}]": "utter_happy",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"affirm\"}}, {\"prev_action\": {\"action_name\": \"utter_happy\"}, \"user\": {\"intent\": \"affirm\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"can_policy\"}}]": "utter_can_policy",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"can_policy\"}}, {\"prev_action\": {\"action_name\": \"utter_can_policy\"}, \"user\": {\"intent\": \"can_policy\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"clean_now\"}}]": "utter_clean_now",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"clean_now\"}}, {\"prev_action\": {\"action_name\": \"utter_clean_now\"}, \"user\": {\"intent\": \"clean_now\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}]": "utter_goodbye",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"goodbye\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"goodbye\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"deny\"}}]": "utter_goodbye",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"deny\"}}, {\"prev_action\": {\"action_name\": \"utter_goodbye\"}, \"user\": {\"intent\": \"deny\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mood_great\"}}]": "utter_happy",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"mood_great\"}}, {\"prev_action\": {\"action_name\": \"utter_happy\"}, \"user\": {\"intent\": \"mood_great\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"check_out\"}}]": "utter_check_out",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"check_out\"}}, {\"prev_action\": {\"action_name\": \"utter_check_out\"}, \"user\": {\"intent\": \"check_out\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_challenge\"}}]": "utter_iamabot",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"bot_challenge\"}}, {\"prev_action\": {\"action_name\": \"utter_iamabot\"}, \"user\": {\"intent\": \"bot_challenge\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"clean\"}}]": "utter_clean",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"clean\"}}, {\"prev_action\": {\"action_name\": \"utter_clean\"}, \"user\": {\"intent\": \"clean\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}]": "utter_greet",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"greet\"}}, {\"prev_action\": {\"action_name\": \"utter_greet\"}, \"user\": {\"intent\": \"greet\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"book_room\"}}]": "utter_book_room",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"book_room\"}}, {\"prev_action\": {\"action_name\": \"utter_book_room\"}, \"user\": {\"intent\": \"book_room\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"breakfast\"}}]": "utter_breakfast",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"breakfast\"}}, {\"prev_action\": {\"action_name\": \"utter_breakfast\"}, \"user\": {\"intent\": \"breakfast\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"rest_time\"}}]": "utter_rest_time",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"rest_time\"}}, {\"prev_action\": {\"action_name\": \"utter_rest_time\"}, \"user\": {\"intent\": \"rest_time\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cancel_resr\"}}]": "utter_cancel_resr",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"cancel_resr\"}}, {\"prev_action\": {\"action_name\": \"utter_cancel_resr\"}, \"user\": {\"intent\": \"cancel_resr\"}}]": "action_listen",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"check_in\"}}]": "utter_check_in",
+      "[{\"prev_action\": {\"action_name\": \"action_listen\"}, \"user\": {\"intent\": \"check_in\"}}, {\"prev_action\": {\"action_name\": \"utter_check_in\"}, \"user\": {\"intent\": \"check_in\"}}]": "action_listen"
+    },
+    "rule_only_slots": [],
+    "rule_only_loops": [],
+    "rules_for_loop_unhappy_path": {},
+    "rules_not_in_stories": [
+      "predicting default action with intent restart",
+      "predicting default action with intent session_start",
+      "predicting default action with intent back"
+    ]
+  }
+}

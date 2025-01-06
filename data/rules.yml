@@ -1,0 +1,92 @@
+version: "3.1"
+
+rules:
+- rule: Greet the user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Handle check-in query
+  steps:
+  - intent: check_in
+  - action: utter_check_in
+
+- rule: Handle check-out query
+  steps:
+  - intent: check_out
+  - action: utter_check_out
+
+- rule: Handle cancellation reservation
+  steps:
+  - intent: cancel_resr
+  - action: utter_cancel_resr
+
+- rule: Handle cancellation policy query
+  steps:
+  - intent: can_policy
+  - action: utter_can_policy
+
+- rule: Provide restaurant details
+  steps:
+  - intent: restaurant
+  - action: utter_restaurant
+
+- rule: Provide breakfast details
+  steps:
+  - intent: breakfast
+  - action: utter_breakfast
+
+- rule: Provide breakfast timing
+  steps:
+  - intent: break_time
+  - action: utter_break_time
+
+- rule: Provide restaurant timing
+  steps:
+  - intent: rest_time
+  - action: utter_rest_time
+
+- rule: Clean room immediately
+  steps:
+  - intent: clean_now
+  - action: utter_clean_now
+
+- rule: Clean room request
+  steps:
+  - intent: clean
+  - action: utter_clean
+
+- rule: Book a simple room
+  steps:
+  - intent: book_room
+  - action: utter_book_room
+
+- rule: Book a deluxe room
+  steps:
+  - intent: book_room
+  - action: utter_book_room
+
+- rule: Respond to affirm
+  steps:
+  - intent: affirm
+  - action: utter_happy
+
+- rule: Respond to deny
+  steps:
+  - intent: deny
+  - action: utter_goodbye
+
+- rule: Handle mood great
+  steps:
+  - intent: mood_great
+  - action: utter_happy
+
+- rule: Respond to bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Respond to goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
